@@ -46,3 +46,4 @@ def extract_questions(transcript: str) -> str:
         "If none found say 'No open questions found.'"
     )
     return chain.invoke(transcript)
+    
